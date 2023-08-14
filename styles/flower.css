@@ -17,8 +17,7 @@
 .banner .flower-pic{
     width: 635px;
     height: 800px;
-    
-    margin-right: 200px;
+    margin-right: 80px;
 }
 
 .banner-content{
@@ -41,6 +40,10 @@
     margin-bottom: 50px;
 
     
+} 
+
+.primary{
+    color: #E55473;
 }
 
 .btn-primary{
@@ -60,11 +63,15 @@
 /* main*/
 
 main{
-    max-width: 1000px;
+    max-width: 2000px;
+    
     
 }
  main section{
     margin-top: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
 
  
  }
@@ -76,12 +83,17 @@ main{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-left: 480px;
+    margin-left: 500px;
+    font-family: Lato;
+    width:730px;
    
 }
 .section-description{
     color: #616161;
     margin-left: 500px;
+    font-family: Lato;
+    text-align: center;
+    width: 730px;
 }
 .tree-color{
     display: flex;
@@ -91,15 +103,134 @@ main{
 .pic-one{ 
     margin-right: 150px;
     margin-left: 150px;
+    position: absolute;
+    margin-top: 110px;
     
 }
 .pic-two{
   margin-right: 200px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 110px;
+
 }
 .pic-three{
     margin-left: 10px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 65px;
 }
 
-.peragraph{
-    margin-left: 120px;
+
+
+
+.background{
+    background-color: aqua;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-left: 80px;
+    position: relative;
+}
+.background-one{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-left: 90px ;
+    position: relative;
+}
+.background-two{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-left: 90px ;
+    position: relative;
+}
+.pink-flower{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; 
+    text-decoration-line: underline;
+    margin-left: 70px;
+}
+.flower-info{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1550px;
+    height: 320px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.info-one{
+    margin-left: 250px;
+}
+.info-two{
+    margin-left: 200px;
+}
+.info-three{
+    margin-left: 200px;
+}
+
+.info{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-left: 130px;
+    
+}
+.deal{
+    padding: 50px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+    
+}
+
+.hot-deal{
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+.flower-pic{
+    margin-right: 300px;
+}
+.hot-tittle{
+    margin-left: 280px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.hot-description{
+     margin-left: 250px;
+     color: rgba(39, 39, 39, 0.60);
+     text-align: center;
+     font-family: Lato;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px; 
+     
+}
+
+.sign-up{
+    margin-left: 280px;
+    
 }
