@@ -77,7 +77,9 @@ main{
  }
 
 /*featured flower*/
-
+.feathure-flower{
+    margin-bottom:5px ;
+}
 .section-tittle{
     color: #272727;
     text-align: center;
@@ -86,7 +88,7 @@ main{
     margin-left: 500px;
     font-family: Lato;
     width:730px;
-   
+    
 }
 .section-description{
     color: #616161;
@@ -98,6 +100,7 @@ main{
 .tree-color{
     display: flex;
     padding-right: 850px;
+    margin-top: 50px;
     
 }
 .pic-one{ 
@@ -196,7 +199,7 @@ main{
     justify-content: space-between; 
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    
+    width: 1700px;
     
 }
 
@@ -204,12 +207,12 @@ main{
     margin-left: 50px;
     align-items: center;
     text-align: center;
-    
+  
     
 
 }
 .flower-pic{
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .hot-tittle{
     margin-left: 280px;
@@ -233,4 +236,44 @@ main{
 .sign-up{
     margin-left: 280px;
     
+}
+
+.insta-tittle{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 500px;
+    font-family: Lato;
+    width:730px;
+}
+.insta-description{
+    color: #616161;
+    margin-left: 500px;
+    font-family: Lato;
+    text-align: center;
+    width: 730px;
+}
+.insta-collection{
+    display: flex;
+    margin-left: 100px;
+    width: 342px;
+    height: 396px;
+    margin-top: 50px;
+}
+.insta-two{
+    margin-left: 50px;
+}
+.insta-three{
+    margin-left: 50px;
+}
+.insta-four{
+    margin-left: 50px;
+}
+
+.back-img{
+    position: absolute;
+}
+.pi{
+    position: relative;
 }
