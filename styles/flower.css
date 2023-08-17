@@ -30,6 +30,7 @@
     font-size: 80px;
     font-weight: 800;
     align-items: center;
+   
     
 }
 
@@ -37,7 +38,7 @@
 
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
-    margin-bottom: 50px;
+  
 
     
 } 
@@ -50,14 +51,16 @@
     border-radius: 8px;
     background: #E55473;
     border: 0;
-    width: 200px;
+    width: 160px;
     height: 64px;
-    padding: 20px 43px;
     color: #FFF;
     font-weight: 700;
     font-size: 20px;
 
 
+}
+.first-button{
+    margin-bottom: 20px;
 }
 
 /* main*/
@@ -91,7 +94,7 @@ main{
     
 }
 .section-description{
-    color: #616161;
+    color: rgba(39, 39, 39, 0.60);
     margin-left: 500px;
     font-family: Lato;
     text-align: center;
@@ -234,21 +237,19 @@ main{
 }
 
 .sign-up{
-    margin-left: 280px;
+    margin-left: 250px;
     
 }
 
 .insta-tittle{
     color: #272727;
     text-align: center;
+    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-    margin-left: 500px;
-    font-family: Lato;
-    width:730px;
 }
 .insta-description{
-    color: #616161;
+    color: rgba(39, 39, 39, 0.60);
     margin-left: 500px;
     font-family: Lato;
     text-align: center;
@@ -280,13 +281,14 @@ main{
 .get-deal{
     position: absolute;
     
+    
+    
    
 }
 .latest{
     color: #272727;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
     text-align: center;
     margin-left: 650px;
@@ -300,4 +302,71 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.email input {
+   
+ 
+    padding: 0px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-color: #FFF;
+    border: 0;
+    width: 700px;
+    height: 64px;
+    
+   
+}
+.get-email{
+    display: flex;
+    margin-top: 300px;
+    margin-left: 400px;
+    
+}
+.sub{
+    margin-left: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+ 
+}
+.footer{
+    display: flex;
+
+    margin-top: 800px;
+    background: #111010;
+   
+    width: 1800px;
+    height: 550px;
+   
+}
+.last-tittle{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: 750px;
+    margin-top: 150px
+
+}
+.last-description{
+    color: rgba(255, 255, 255, 0.90);
+    
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 600px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.adress{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    
 }
