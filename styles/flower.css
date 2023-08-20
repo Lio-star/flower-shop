@@ -240,13 +240,16 @@ main{
     margin-left: 250px;
     
 }
-
+.instagram{
+    margin-right: 100px;
+}
 .insta-tittle{
     color: #272727;
-    text-align: center;
+   
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    margin-left: 750px;
 }
 .insta-description{
     color: rgba(39, 39, 39, 0.60);
@@ -343,23 +346,22 @@ main{
    
 }
 .last-tittle{
-    color: #E55473;
+    color: #FFF;
     font-family: Lato;
     font-size: 48px;
     font-weight: 800;
-    margin-left: 750px;
+    margin-left: 770px;
     margin-top: 150px
 
 }
 .last-description{
     color: rgba(255, 255, 255, 0.90);
-    
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 600px;
+    margin-left: 650px;
     text-align: center;
-    margin-bottom: 200px;
+    margin-top: 30px;
 }
 .adress{
     color: rgba(255, 255, 255, 0.40);
@@ -367,6 +369,6 @@ main{
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 10px;
-    
+    margin-top: 50px;
+    margin-left:650px;    
 }
